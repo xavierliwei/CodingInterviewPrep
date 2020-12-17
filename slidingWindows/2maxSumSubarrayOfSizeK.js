@@ -1,6 +1,6 @@
 //Given an array of positive numbers and a positive number ‘k,’ find the maximum sum of any contiguous subarray of size ‘k’.
 function f(arr, K) {
-    let ans=0, sum=0, max=0
+    let sum=0, max=0
     for(let i=0; i<arr.length; i++){
         if(i < K) {
             sum += arr[i]
